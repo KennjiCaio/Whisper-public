@@ -1,0 +1,27 @@
+.element {
+  display: inline-flex;
+  align-items: center;
+}
+i.fa-camera {
+  margin-right: 10px;
+  cursor: pointer;
+}
+i:hover {
+  opacity: 0.6;
+}
+#inputIcon, .inputIcon2 {
+  display: none;
+}
+
+/* Important part */
+
+body.modal-open-noscroll
+{
+    margin-right: 0!important;
+    overflow-y: hidden !important;
+
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom
+{
+    margin-right: 0!important;
+}
